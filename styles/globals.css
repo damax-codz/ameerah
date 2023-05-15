@@ -3,3 +3,9 @@
 @tailwind utilities;
 
 
+*, html {
+  scroll-behavior: smooth !important;
+}
+
+.clip{
+  clip-path: circle(58.7% at 84% 21%);}

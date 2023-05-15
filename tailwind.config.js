@@ -18,8 +18,9 @@ module.exports = {
       pink: "#FFE7DE",
       black: "#16140D",
       ash: "#606060",
+      ashh:"rgba(0,0,0,0.1)",
       white: "#FFFFFF",
-      bbg: "#16140D",
+      bbg: "#130704",
     },
     fontFamily: {
       fraunces: ["Fraunces", "serif"],
