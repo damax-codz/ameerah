@@ -8,7 +8,7 @@ const Footer = (props) => {
         I am open to UX Design roles and freelance gigs. click on the button
         below to reach me
       </p>
-      <button className="font-source text-md lg:text-[24px] text-brown cursor-pointer border-[1px] mt-5 border-r-brown rounded-[50px] py-[16px] px-[32px] ">
+      <button className={"font-source text-md lg:text-[24px] text-brown cursor-pointer border-[1px] mt-5  rounded-[50px] py-[16px] px-[32px] " + props.border + " " + props.textcolored}>
         SEND A MAIL
       </button>
     </div>
