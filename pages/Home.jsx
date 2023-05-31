@@ -30,7 +30,7 @@ const Home = () => {
     <>
       <div className={bg + " w-full lg:pb-0 min-h-screen"}>
         <nav className="w-full flex justify-between items-center px-5 lg:px-[80px] pt-5">
-          <Image src="/logo.png" width={80} height={80} alt="logo" />
+          <Image src={theme ? "/logodark.png" : "/logolight.png"} width={80} height={80} alt="logo" />
           <div onClick={() => openNav()}>
             <Image
               src={theme ? "/menu.png" : "/menupink.png"}
@@ -108,7 +108,7 @@ const Home = () => {
           <div className=" w-2/4 justify-between items-center hidden min-[1150px]:flex">
             <a
               className={
-                "font-source text-[24px] py-3 mr-2 cursor-pointer " +
+                "font-source text-[24px] py-3 mr-2 cursor-pointer  " +
                 textcolored
               }
               href="#work"
@@ -155,7 +155,7 @@ const Home = () => {
         <div className="w-full flex flex-col items-center justify-center mt-10 min-h-[70vh]">
           <p
             className={
-              "font-fraunces  text-[100px] lg:text-[200px] font-normal " +
+              "font-fraunces  text-[100px] lg:text-[200px] font-light " +
               textcolored
             }
           >
@@ -163,13 +163,13 @@ const Home = () => {
           </p>
           <p
             className={
-              "font-source  lg:text-[24px] px-10  lg:w-[800px] text-center text-base " +
+              "font-source  lg:text-[24px] px-10  lg:w-[1015px] text-center text-base  " +
               textcolored
             }
           >
-            IS A UX DESIGNER WHO BELIEVES Good design is more than just
-            aesthetics. It's about crafting meaningful experiences that drive
-            results.
+            IS A UX DESIGNER WHO BELIEVES GOOD DESIGN IS MORE THAN JUST
+            AESTHETICS. IT'S ABOUT CRAFTING MEANINFUL EXPERIENCES THAT DRIVE
+            RESULTS.  
           </p>
           <button
             className={

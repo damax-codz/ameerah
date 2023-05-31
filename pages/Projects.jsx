@@ -18,7 +18,7 @@ const Projects = (props) => {
       </p>
       <p
         className={
-          " lg:w-[816px] text-center text-black uppercase text-base  lg:text-[24px] " +
+          " lg:w-[816px] text-center text-black uppercase text-base  lg:text-[24px] leading-[35px] " +
           props.text
         }
       >
@@ -28,26 +28,15 @@ const Projects = (props) => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-[95px] gap-[32px]">
         <div className="w-full  relative">
-          <Image src="/shake.png" width={660} height={560} />
+          <Image src="/adeline.png" width={660} height={560} />
           <p
             className={
-              "font-fraunces text-2xl  my-2 md:text-3xl lg:text-[40px] text-black " +
+              "font-fraunces text-sm  my-2 md:text-3xl lg:text-[14px] text-black " +
               props.text
             }
           >
-            RecruiterBae
+            Mobile app . Desktop . Food& Drink
           </p>
-          <p
-            className={
-              "font-source  text-xl leading-10  lg:text-[24px] text-ash uppercase " +
-              props.text
-            }
-          >
-            improving job seeker’s experience
-          </p>
-        </div>
-        <div className="w-full  relative">
-          <Image src="/cake.png" width={660} height={560} />
           <p
             className={
               "font-fraunces text-2xl  my-2 md:text-3xl lg:text-[40px] text-black " +
@@ -58,34 +47,24 @@ const Projects = (props) => {
           </p>
           <p
             className={
-              "font-source  text-xl leading-10  lg:text-[24px] text-ash uppercase " +
+              "font-source  text-xl  lg:text-[18px] text-ash uppercase leading-[30px] " +
               props.text
             }
           >
-            a cake scheduling/ ordering system
+            Connecting pastry lovers with cake vendors for personalized and
+            scheduled pastry orders
           </p>
         </div>
         <div className="w-full  relative">
-          <Image src="/cake.png" width={660} height={560} />
+          <Image src="/train.png" width={660} height={560} />
           <p
             className={
-              "font-fraunces text-2xl  my-2 md:text-3xl lg:text-[40px] text-black " +
+              "font-fraunces text-sm  my-2 md:text-3xl lg:text-[14px] text-black " +
               props.text
             }
           >
-            YBS Kids
+            Mobile app . Desktop . Health & Fitness
           </p>
-          <p
-            className={
-              "font-source  text-xl leading-10  lg:text-[24px] text-ash uppercase " +
-              props.text
-            }
-          >
-            INCREASING NON-PROFIT WEBSITE CONVERSIONS USING UX AUDIT
-          </p>
-        </div>
-        <div className="w-full  relative">
-          <Image src="/cake.png" width={660} height={560} />
           <p
             className={
               "font-fraunces text-2xl  my-2 md:text-3xl lg:text-[40px] text-black " +
@@ -96,11 +75,68 @@ const Projects = (props) => {
           </p>
           <p
             className={
-              "font-source  text-xl leading-10  lg:text-[24px] text-ash uppercase " +
+              "font-source  text-xl leading-[30px]  lg:text-[18px] text-ash uppercase  " +
               props.text
             }
           >
-            A FITNESS APP THAT HELPS USERS MEET THEIR FITNESS GOAL
+            A comprehensive fitness app offering workout guidance, diet plans,
+            progress tracking, and access to dietitians/fitness coaches{" "}
+          </p>
+        </div>
+        <div className="w-full  relative">
+          <Image src="/ybs.png" width={660} height={560} />
+          <p
+            className={
+              "font-fraunces text-sm  my-2 md:text-3xl lg:text-[14px] text-black " +
+              props.text
+            }
+          >
+            Website . Mobile responsive . Non-profit
+          </p>
+          <p
+            className={
+              "font-fraunces text-2xl  my-2 md:text-3xl lg:text-[40px] text-black " +
+              props.text
+            }
+          >
+            YBS Kids
+          </p>
+          <p
+            className={
+              "font-source  text-xl leading-[30px]  lg:text-[18px] text-ash uppercase " +
+              props.text
+            }
+          >
+            Enhancing user experience and increasing conversions through
+            data-driven recommendations and usability improvements{" "}
+          </p>
+        </div>
+        <div className="w-full  relative">
+          <Image src="/recruit.png" width={660} height={560} />
+          <p
+            className={
+              "font-fraunces text-sm  my-2 md:text-3xl lg:text-[14px] text-black " +
+              props.text
+            }
+          >
+            Website . Mobile responsive . Recruitment
+          </p>
+          <p
+            className={
+              "font-fraunces text-2xl  my-2 md:text-3xl lg:text-[40px] text-black " +
+              props.text
+            }
+          >
+            RecuiterBae
+          </p>
+          <p
+            className={
+              "font-source  text-xl leading-[30px]  lg:text-[18px] text-ash uppercase " +
+              props.text
+            }
+          >
+            Empowering job seekers through a redesigned website, coaching, and
+            career development resources for enhanced career success{" "}
           </p>
         </div>
       </div>

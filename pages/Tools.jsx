@@ -19,7 +19,7 @@ const Tools = (props) => {
         </p>
         <p
           className={
-            " lg:w-[816px] text-center text-black uppercase text-base  lg:text-[24px] " +
+            " lg:w-[816px] text-center text-black uppercase text-base  lg:text-[24px] leading-[35px] " +
             props.text
           }
         >
@@ -81,7 +81,7 @@ const Tools = (props) => {
         </p>
         <p
           className={
-            " lg:w-[816px] text-center text-black uppercase text-base  lg:text-[24px] " +
+            " lg:w-[816px] text-center text-black uppercase text-base  lg:text-[24px] leading-[35px] " +
             props.text
           }
         >
@@ -94,7 +94,7 @@ const Tools = (props) => {
             <p className={"font-source text-[24px] text-black " + props.text}>
               01/ discovery
             </p>
-            <p className={"font-source text-[18px] text-ash " + props.text}>
+            <p className={"font-source text-[18px] text-ash leading-[30px] " + props.text}>
               Let's embark on a journey of understanding as we explore your
               business, users, and goals. We identify business problems,
               objectives, and what distinguishes your brand. We also research
@@ -106,7 +106,7 @@ const Tools = (props) => {
             <p className={"font-source text-[24px] text-black " + props.text}>
               02/ strategy
             </p>
-            <p className={"font-source text-[18px] text-ash " + props.text}>
+            <p className={"font-source text-[18px] text-ash leading-[30px] " + props.text}>
               Armed with insights from the discovery phase, we define a clear
               strategy for achieving the project goals. Then, we work on
               establishing appropriate goals, determining product features, and
@@ -118,7 +118,7 @@ const Tools = (props) => {
             <p className={"font-source text-[24px] text-black " + props.text}>
               03/ design
             </p>
-            <p className={"font-source text-[18px] text-ash " + props.text}>
+            <p className={"font-source text-[18px] text-ash leading-[30px] " + props.text}>
               With the strategy locked in place, we bring your ideas to life
               with a creative design process. We create the most engaging, and
               functional experience for users by leveraging research data and
@@ -130,7 +130,7 @@ const Tools = (props) => {
             <p className={"font-source text-[24px] text-black " + props.text}>
               04/ test & iterate
             </p>
-            <p className={"font-source text-[18px] text-ash " + props.text}>
+            <p className={"font-source text-[18px] text-ash leading-[30px] " + props.text}>
               Testing is an integral part of the design process, and we'll work
               together to test the product thoroughly. We use feedback from
               testing to iterate on designs and refine the user experience until
