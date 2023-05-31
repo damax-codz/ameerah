@@ -27,8 +27,9 @@ const Projects = (props) => {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-[95px] gap-[32px]">
-        <div className="w-full  relative">
-          <Image src="/adeline.png" width={660} height={560} />
+        <a className="w-full  relative" href="https://www.behance.net/gallery/158325193/Adeline-Cake-Ordering-System-UX-Case-Study" target="_blank"> 
+          <Image src="/adeline.png" width={660} height={560} className="absolute hover:opacity-0 duration-700" />
+          <Image src="/adelinetwo.png" width={660} height={560} className=" " />
           <p
             className={
               "font-fraunces text-sm  my-2 md:text-3xl lg:text-[14px] text-black " +
@@ -54,9 +55,10 @@ const Projects = (props) => {
             Connecting pastry lovers with cake vendors for personalized and
             scheduled pastry orders
           </p>
-        </div>
-        <div className="w-full  relative">
-          <Image src="/train.png" width={660} height={560} />
+        </a>
+        <a className="w-full  relative" href="https://www.behance.net/gallery/151328429/Fitness-App-Case-Study" target="_blank">
+        <Image src="/train.png" width={660} height={560} className="absolute hover:opacity-0 duration-700" />
+          <Image src="/traintwo.png" width={660} height={560} className=" " />
           <p
             className={
               "font-fraunces text-sm  my-2 md:text-3xl lg:text-[14px] text-black " +
@@ -82,9 +84,10 @@ const Projects = (props) => {
             A comprehensive fitness app offering workout guidance, diet plans,
             progress tracking, and access to dietitians/fitness coaches{" "}
           </p>
-        </div>
-        <div className="w-full  relative">
-          <Image src="/ybs.png" width={660} height={560} />
+        </a>
+        <a className="w-full  relative" href="https://www.behance.net/gallery/160133797/Website-UX-Audit" target="_blank">
+        <Image src="/ybs.png" width={660} height={560} className="absolute hover:opacity-0 duration-700" />
+          <Image src="/ybstwo.png" width={660} height={560} className=" " />
           <p
             className={
               "font-fraunces text-sm  my-2 md:text-3xl lg:text-[14px] text-black " +
@@ -110,7 +113,7 @@ const Projects = (props) => {
             Enhancing user experience and increasing conversions through
             data-driven recommendations and usability improvements{" "}
           </p>
-        </div>
+        </a>
         <div className="w-full  relative">
           <Image src="/recruit.png" width={660} height={560} />
           <p

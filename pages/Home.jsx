@@ -72,7 +72,7 @@ const Home = () => {
                 WORK
               </a>
               <a
-                href="/adeline.pngf"
+                href="/resume.pdf"
                 alt="alt text"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -126,7 +126,7 @@ const Home = () => {
               WORK
             </a>
             <a
-              href="/adeline.png"
+              href="/resume.pdf"
               alt="alt text"
               target="_blank"
               rel="noopener noreferrer"
