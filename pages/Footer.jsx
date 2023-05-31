@@ -25,7 +25,7 @@ const Footer = (props) => {
         I AM OPEN TO UX DESIGN ROLES AND FREELANCE GIGS. CLICK ON THE BUTTON
         BELOW TO REACH ME
       </p>
-      <button
+      <a href="mailto:oyegokeamirah@gmail.com"
         className={
           "font-source text-md lg:text-[24px] text-brown cursor-pointer border-[1px] mt-5  rounded-[50px] py-[16px] px-[32px] " +
           props.border +
@@ -34,9 +34,9 @@ const Footer = (props) => {
         }
       >
         SEND A MAIL
-      </button>
+      </a>
 
-      <div className="flex justify-between items-center w-full mt-[90px] px-5 lg:px-[80px]">
+      <div className="flex justify-between items-center w-full mt-[90px] px-5 lg:px-[80px] flex-wrap">
         <span className="flex flex-col items-start">
           <p className="font-fraunces  text-brown text-[14px] text-center font-light">
             © 2023
@@ -65,7 +65,7 @@ const Footer = (props) => {
             TWITTER
           </a>
         </span>
-        <span className="flex items-center gap-[8px]"   onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+        <span className="flex items-center gap-[8px] mt-10 md:mt-0 cursor-pointer"    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
           <p className="font-fraunces text-brown text-[14px] text-center font-light">
             BACK TO TOP
           </p>

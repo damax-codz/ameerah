@@ -47,7 +47,7 @@ const Projects = (props) => {
           </p>
           <p
             className={
-              "font-source  text-xl  lg:text-[18px] text-ash uppercase leading-[30px] " +
+              "font-source  text-sm  lg:text-[18px] text-ash uppercase leading-[30px] " +
               props.text
             }
           >
@@ -75,7 +75,7 @@ const Projects = (props) => {
           </p>
           <p
             className={
-              "font-source  text-xl leading-[30px]  lg:text-[18px] text-ash uppercase  " +
+              "font-source  text-sm leading-[30px]  lg:text-[18px] text-ash uppercase  " +
               props.text
             }
           >
@@ -103,7 +103,7 @@ const Projects = (props) => {
           </p>
           <p
             className={
-              "font-source  text-xl leading-[30px]  lg:text-[18px] text-ash uppercase " +
+              "font-source  text-sm leading-[30px]  lg:text-[18px] text-ash uppercase " +
               props.text
             }
           >
@@ -131,7 +131,7 @@ const Projects = (props) => {
           </p>
           <p
             className={
-              "font-source  text-xl leading-[30px]  lg:text-[18px] text-ash uppercase " +
+              "font-source  text-sm leading-[30px]  lg:text-[18px] text-ash uppercase " +
               props.text
             }
           >

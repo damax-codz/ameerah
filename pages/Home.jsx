@@ -30,7 +30,12 @@ const Home = () => {
     <>
       <div className={bg + " w-full lg:pb-0 min-h-screen"}>
         <nav className="w-full flex justify-between items-center px-5 lg:px-[80px] pt-5">
-          <Image src={theme ? "/logodark.png" : "/logolight.png"} width={80} height={80} alt="logo" />
+          <Image
+            src={theme ? "/logodark.png" : "/logolight.png"}
+            width={80}
+            height={80}
+            alt="logo"
+          />
           <div onClick={() => openNav()}>
             <Image
               src={theme ? "/menu.png" : "/menupink.png"}
@@ -67,6 +72,10 @@ const Home = () => {
                 WORK
               </a>
               <a
+                href="/adeline.pngf"
+                alt="alt text"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={
                   "font-source text-xl py-3 mr-2 cursor-pointer " +
                   navtextcolored
@@ -82,7 +91,8 @@ const Home = () => {
               >
                 ABOUT ME
               </a>
-              <button
+              <a
+                href="mailto:oyegokeamirah@gmail.com"
                 className={
                   "font-source text-xl mr-4  cursor-pointer border-[1px]  rounded-[50px] py-[16px] px-[32px] " +
                   navtextcolored +
@@ -91,7 +101,7 @@ const Home = () => {
                 }
               >
                 LET'S CHAT
-              </button>
+              </a>
               <Image
                 src={theme ? "/dark.png" : "/light.png"}
                 width={40}
@@ -115,14 +125,18 @@ const Home = () => {
             >
               WORK
             </a>
-            <p
+            <a
+              href="/adeline.png"
+              alt="alt text"
+              target="_blank"
+              rel="noopener noreferrer"
               className={
                 "font-source text-[24px] py-3 mr-2 cursor-pointer " +
                 textcolored
               }
             >
               RESUME
-            </p>
+            </a>
             <a
               className={
                 "font-source text-[24px] py-3 mr-2 cursor-pointer " +
@@ -131,7 +145,8 @@ const Home = () => {
             >
               ABOUT ME
             </a>
-            <button
+            <a
+              href="mailto:oyegokeamirah@gmail.com"
               className={
                 "font-source text-[24px]  cursor-pointer border-[1px]  rounded-[50px] py-[16px] px-[32px] " +
                 textcolored +
@@ -140,7 +155,7 @@ const Home = () => {
               }
             >
               LET'S CHAT
-            </button>
+            </a>
 
             <Image
               src={theme ? "/dark.png" : "/light.png"}
@@ -169,9 +184,10 @@ const Home = () => {
           >
             IS A UX DESIGNER WHO BELIEVES GOOD DESIGN IS MORE THAN JUST
             AESTHETICS. IT'S ABOUT CRAFTING MEANINFUL EXPERIENCES THAT DRIVE
-            RESULTS.  
+            RESULTS.
           </p>
-          <button
+          <a
+            href="mailto:oyegokeamirah@gmail.com"
             className={
               "font-source text-[24px]  cursor-pointer border-[1px]  rounded-[50px] py-[16px] px-[32px] mt-5 " +
               textcolored +
@@ -180,7 +196,7 @@ const Home = () => {
             }
           >
             SEND A MAIL
-          </button>
+          </a>
         </div>
       </div>
       <Projects
